@@ -1,0 +1,356 @@
+body  {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    background-color: lightgray;
+}
+
+/* in the starting im giving section to my menu bar giving position:fixed to section1 and adding z-index:1 to visible my menu bar */
+
+/* ref: use color pelete website to select color and google fonts to add some extra fonts. */
+
+.section1 {
+   position: fixed; 
+   top: 0;
+   z-index: 1;
+   width: 100%;
+   height: 90px;;
+   margin: 0;
+   padding: 0;
+   background-color: gray;
+  box-shadow: ;
+}
+
+.section1 img {
+    position: absolute;
+    left: 0;
+    width: 80px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.section1 ul {
+    position: absolute;
+   right:0;
+   margin: 37px;
+   padding:0;
+}
+
+.section1 li :hover {
+    text-decoration: underline;
+}
+.section1 li {
+display: inline-block;
+margin-right: 22px;
+list-style-type: none;
+}
+.section1 a {
+text-decoration: none;
+color: white;
+font-family: 'Lucida Sans';
+}
+ /*made section2 for my content and images where i have justify all content with 
+50% width and all the images with 50% width. also set position top and right to adjust
+pictures.  */
+
+
+.section2 {
+    position: relative;
+    width: 100%;
+    height: 479px; 
+    margin-top: 90px;
+    padding: 0;
+    background-color: darkgray;
+
+}
+
+.content {
+    width: 50%;
+    position: absolute;
+    display: inline-block;
+    margin: 80px 30px;
+}
+
+.content h1 {
+    font-size: 40px;
+    font-family: 'Lucida Sans';
+}
+.content span {
+color: lightsalmon;
+font-style: italic;
+}
+.content button:hover {
+    cursor: pointer;
+}
+.content button {
+border: 1px solid black;
+border-radius: 10px;
+background-color: black;
+padding: 10px 15px;
+}
+.content button a {
+color: white;
+font-size: 18px;
+padding: 10px;
+text-decoration: none;
+}
+
+
+
+.images {
+    width: 50%;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.images img:hover {
+    border: 5px solid pink;
+    cursor: pointer;
+}
+.images img {
+    width: 150px;
+    margin: 20px;
+}
+
+/* making anew section for about us */
+
+
+.aboutus {
+   position:relative;
+   top: 0;
+   right: 0;
+   left: 0;
+   bottom: 0;
+   margin: 0;
+   padding: 0;
+
+
+}
+
+.aboutus img {
+    width: 400px;
+   display: inline-block;
+   position: absolute;
+   left:0;
+   margin-top: 54px;
+    margin-left: 63px;
+}
+
+.aboutus h2 {
+    display: inline-block;
+    position: absolute;
+    right:0;
+    width:50%;
+    margin-top: 40px;
+    padding-right: 24px;
+}
+
+.p1 {
+    display: inline-block;
+    position: absolute;
+    right:0;
+    width:50%;
+    margin-top: 87px;
+    padding-right: 24px;
+}
+
+.p2 {
+    display: inline-block;
+    position: absolute;
+    right:0;
+    width:50%;
+    margin-top: 189px;
+    padding-right: 24px;
+}
+
+
+/* now im going to add a new section of services in it i will use some of the new properties. */
+
+
+.div1 {
+position: relative;
+top:0;
+text-align: center;
+width: 100%;
+margin-top: 509px;
+}
+
+.div1 h2 {
+text-align: center;
+}
+.div1 p {
+text-align: center;
+}
+
+.div2 {
+    position: relative;
+    top:0;
+    text-align: center;
+    width: 100%;
+    margin-top: 74px;
+}
+.div2 p {
+text-align: center;
+margin-left: 100px;
+margin-right: 100px;
+}
+
+.div3 {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    margin-top: 200px;
+}
+
+.src1 {
+    position: absolute;
+    width: 405.3px;
+    text-align: center;
+    padding: 0;
+}
+.src1:hover {
+    border: 5px solid lightpink;
+    width: 395.3px;
+}
+.src2 {
+    position: absolute;
+    width: 30%;
+  margin-left: 464px;
+    text-align: center;
+}
+.src2:hover {
+    border: 3px solid lightpink;
+}
+.src3 {
+    position: absolute;
+    width: 30%;
+  margin-left: 924px;
+    text-align: center;
+}
+.src3:hover {
+    border: 3px solid lightpink;
+}
+
+.div4 {
+    position: relative;
+    display: inline-block;
+   margin-top: 400px;
+    width: 100%;;
+
+}
+
+
+.src4 {
+    position: absolute;
+    width: 30%;
+    text-align: center;
+  margin-top: 165px;
+}
+.src4:hover {
+    border: 3px solid lightpink;
+}
+.src5 {
+    position: absolute;
+    width: 30%;
+  margin-left: 464px;
+    text-align: center;
+  margin-top: 165px;
+}
+.src5:hover {
+    border: 3px solid lightpink;
+}
+.src6 {
+    position: absolute;
+    width: 30%;
+  margin-left: 924px;
+    text-align: center;
+  margin-top: 165px;
+}
+.src6:hover {
+    border: 3px solid lightpink;
+}
+.div3 img {
+    width: 230px;
+    word-wrap: break-word;
+}
+.div3 h2 {
+    font-family: sans-serif;
+}
+.div3 p {
+    margin: 0 100px 0 100px;
+    color: gray;
+}
+.div4 img {
+    width: 230px;
+    word-wrap: break-word;
+}
+.div4 h2 {
+font-family: sans-serif;
+}
+.div4 p {
+    margin: 0 100px 0 100px;
+    color: gray;
+}
+
+.button2 {
+position: fixed;
+right:0;
+bottom: 50px;
+background-color: green;
+margin-right: -1px;
+padding: 0px 0px;
+border: none;
+
+}
+
+.button2 ul{
+  list-style-image: url("whatsapp icon 2.png");
+  
+}
+
+.button2:hover {
+    background-color: lightgreen;
+    cursor: pointer;
+}
+
+.button2  li{
+    font-size: 17px;
+  padding-right: 10px;
+  color: white;
+  font-weight: 700;
+}
+
+.socials {
+position: fixed;
+right: 0;
+top:200px;
+z-index:3;
+}
+
+.socials img {
+    display:block;
+    width: 32px;
+ margin-bottom: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
